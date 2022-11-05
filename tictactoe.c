@@ -82,7 +82,7 @@ int checkwin()
 void drawboard(){
     system("cls");
     printf("\n\n Tic Tac Toe \n\n");
-    printf("Player1(x)- Player2(0)\n\n\n");
+    printf("\n\nPlayer1(x)- Player2(0)\n\n\n");
     printf("%c|%c|%c \n",square[1],square[2],square[3]);
     printf("%c|%c|%c \n",square[4],square[5],square[6]);
     printf("%c|%c|%c \n",square[7],square[8],square[9]);
