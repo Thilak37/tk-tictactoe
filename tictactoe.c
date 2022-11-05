@@ -47,7 +47,7 @@ int main()
 drawboard();
    if(i==1){
 
-    printf("==>Player %d won!!",--player);
+    printf("\n\n==>Player %d won!!",--player);
    }
    else{
 
