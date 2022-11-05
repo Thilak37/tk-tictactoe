@@ -51,7 +51,7 @@ drawboard();
    }
    else{
 
-    printf("The game is drawn!!!");
+    printf("\n\nThe game is drawn!!!");
    }
    getch();
 }
