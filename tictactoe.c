@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<conio.h>
 #include <stdlib.h>
-char square[10]={'o','1','2','3','4','5','6','7','8','9'};
+char square[10]={'0','1','2','3','4','5','6','7','8','9'};
 int checkwin();
 void drawboard();
 
@@ -65,7 +65,7 @@ int checkwin()
         return 1;
         else if(square[1]==square[5]&&square[5]==square[9])
         return 1;
-        else if(square[3]==square[5]&&square[5]==square[6])
+        else if(square[3]==square[5]&&square[5]==square[7])
         return 1;
         else if(square[1]==square[4]&&square[4]==square[7])
         return 1;
@@ -80,9 +80,9 @@ int checkwin()
 
 }
 void drawboard(){
-    system("cls");
+    //system("cls");
     printf("\n\n Tic Tac Toe \n\n");
-    printf("\n\nPlayer1(x)- Player2(0)\n\n\n");
+    printf("\n\nPlayer1(x)- Player2(o)\n\n\n");
     printf("%c|%c|%c \n",square[1],square[2],square[3]);
     printf("%c|%c|%c \n",square[4],square[5],square[6]);
     printf("%c|%c|%c \n",square[7],square[8],square[9]);
